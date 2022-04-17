@@ -57,10 +57,10 @@
             string sonuc = null;
             for(int i = 0; i < cumle.Length; i++)
             {
-            if(cumle[i] != ' ')
-            {
-                sonuc += cumle[i];
-            }
+                if(cumle[i] != ' ')
+                {
+                    sonuc += cumle[i];
+                }
             }
                 
             int harfsayisi = sonuc.Length;
