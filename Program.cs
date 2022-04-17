@@ -56,8 +56,13 @@
             string cumle = Console.ReadLine();
             string sonuc = null;
             for(int i = 0; i < cumle.Length; i++)
+            {
             if(cumle[i] != ' ')
+            {
                 sonuc += cumle[i];
+            }
+            }
+                
             int harfsayisi = sonuc.Length;
             Console.WriteLine("Cümleniz {0} harften oluşmakta.", harfsayisi);
 
